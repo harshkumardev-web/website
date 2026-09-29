@@ -1,15 +1,9 @@
 # ReLaptop Store
 
-A simple PHP storefront for selling used laptops.
+A simple static storefront for selling used laptops, hosted on Netlify.
 
 ## Run locally
 
-From this folder, run:
+Open `index.html` in a browser, or run `netlify dev` from this folder.
 
-```bash
-php -S localhost:8000
-```
-
-Open http://localhost:8000 in your browser. Product data lives in `data/products.php` and can be replaced with a database later.
-
-Update the WhatsApp phone number in `index.php` before publishing.
+Products are listed directly in `index.html`. Update the WhatsApp phone number (`923001234567`) in `index.html` before publishing.
